@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/087ffc7024.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="stats">
+        <div>
+            <p class="letters-incorrect">WPM:
+                <span id="incorrect-count">0</span>
+            </p>
+            <p class="timer">Time:<span id="time">15</span></p>
+        </div>
+        <div class="options">
+            <input type="radio" name="time" id="fifteen" value="15" checked>
+            <label for="fifteen">15</label>
+
+            <input type="radio" name="time" id="thirty" value="30">
+            <label for="thirty">30</label>
+
+            <input type="radio" name="time" id="sixty" value="60">
+            <label for="sixty">60</label>
+        </div>
+    </div>
+    <div class="typing-test-box"></div>
+
+    <div class="container">
+        <button class="reset">
+            <i class="fa-solid fa-rotate-left"></i>
+        </button>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
